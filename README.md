@@ -1,80 +1,135 @@
-# group-project
-reema
-vikram bageja lol
+## ![ga_cog_large_red_rgb](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png) Software Engineering Immersive Course: Project 3 - MERN Stack App
+
+# techTalk
+
+<img src="https://imgur.com/yDP94ht.jpg">
+
+## Brief
+Build a full stack app by creating your own front and back end using MERN (MongoDB, Express, React.js & Node.js). The app will most likely have multiple relationships and CRUD functionality for at least a couple of models.
+
+Timeframe: 1 week, group coding collaborating with [Vikram Bageja](https://github.com/vikram1510), [Reema Patel](https://github.com/missreems) and [Tom Good](https://github.com/TE-Good).
+
+ 
+## Summary
+'Tech Talk' is a full stack app that allows users to find and create tech related events by location and date. Users can create events, see who is attending, and comment on the events that they are attending. We built the whole app in JavaScript. Our back end used an Express API to serve the data from a Mongo database and is consumed by our front end built using React. 
+
+This was a group project over a period of a week that required rigorous planning and constant collaboration. We used a combination of Visual Studio Live Share in VS Code to group code, and pair programming to set up the framework; we then split up to work on other individual elements. Git and Trello were instrumental for prioritisation and version control, and ensured our code wasn’t duplicated or conflicting. My responsibilities included: creating and then styling forms with Skeleton; the language buttons using Adobe Illustrator and Photoshop; and the map element using Mapbox API and react-map-gl. 
 
 
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #3: A MERN Stack App
-​
-## Overview
-​
-**You’ve come a long way, and it's time to show it.** This will be your most advanced project to date. It is __IMPORTANT__ to note that when we say _advanced_, the project doesn't necessarily need to have lots more functionality.
-​
-**Remember:** simple code is stable code, so always favour refactoring and bug fixing over adding more functionality.
-​
-With this in mind, you need to be smart about how you plan, limit your project scope to be achievable (in terms of functionality) and focus on quality rather than quantity.
-​
-Make sure you review your project proposal with your instructor so you can make sure it's **something you can accomplish in the limited time we have**. You will have some time after the project to add extra functionality before your Meet & Hire!
-​
----
-​
-## Technical Requirements
-​
-You must:
-​
-* **Build a full-stack application** by making your own backend and your own front-end
-* **Use an Express API** to serve your data from a Mongo database
-* **Consume your API with a separate front-end** built with React
-* **Be a complete product** which most likely means multiple relationships and CRUD functionality for at least a couple of models
-* **Implement thoughtful user stories/wireframes** that are significant enough to help you know which features are core MVP and which you can cut
-* **Have a visually impressive design** to kick your portfolio up a notch and have something to wow future clients & employers. **ALLOW** time for this.
-* **Be deployed online** so it's publicly accessible.
-* **Have automated tests** for _at least_ one RESTful resource on the back-end. Improve your employability by demonstrating a good understanding of testing principals.
-​
----
-​
-## Necessary Deliverables
-​
-* A **working app** hosted on the internet
-* A **link to your hosted working app** in the URL section of your Github repo
-* A **git repository hosted on Github**, with a link to your hosted project, and frequent commits dating back to the _very beginning_ of the project
-* **A `readme.md` file** with:
-    * An embedded screenshot of the app
-    * Explanations of the **technologies** used
-    * A couple paragraphs about the **general approach you took**
-    * **Installation instructions** for any dependencies
-    * Link to your **user stories/wireframes** – sketches of major views / interfaces in your application
-    * Link to your **pitch deck/presentation** – documentation of your wireframes, user stories, and proposed architecture
-    * Descriptions of any **unsolved problems** or **major hurdles** you had to overcome
-​
----
-​
-## Suggested Ways to Get Started
-​
-* **Don’t get too caught up in too many awesome features** – simple is always better. Build something impressive that does one thing well.
-* **Design first.** Planning with user stories & wireframes before writing code means you won't get distracted changing your mind – you'll know what to build, and you can spend your time wisely by just building it.
-* **Don’t hesitate to write throwaway code** to solve short term problems.
-* **Read the docs for whatever technologies / frameworks / API’s you use**.
-* **Write your code DRY** and **build your APIs RESTful**.
-* **Be consistent with your code style.** You're working in teams, but you're only making one app per team. Make sure it looks like a unified effort.
-* **Commit early, commit often.** Don’t be afraid to break something because you can always go back in time to a previous version.
-* **Keep user stories small and well-defined**, and remember – user stories focus on what a user needs, not what development tasks need accomplishing.
-* **Write code another developer wouldn't have to ask you about**. Do your naming conventions make sense? Would another developer be able to look at your app and understand what everything is?
-* **Make it all well-formatted.** Are you indenting, consistently? Can we find the start and end of every div, curly brace, etc?
-* **Comment your code.** Will someone understand what is going on in each block or function? Even if it's obvious, explaining the what & why means someone else can pick it up and get it.
-* **Write pseudocode before you write actual code.** Thinking through the logic of something helps.
-​
----
-​
-## Project Feedback + Evaluation
-​
-* __Project Workflow__: Did you complete the user stories, wireframes, task tracking, and/or ERDs, as specified above? Did you use source control as expected for the phase of the program you’re in (detailed above)?
-​
-* __Technical Requirements__: Did you deliver a project that met all the technical requirements? Given what the class has covered so far, did you build something that was reasonably complex?
-​
-* __Creativity__: Did you added a personal spin or creative element into your project submission? Did you deliver something of value to the end user (not just a login button and an index page)?
-​
-* __Code Quality__: Did you follow code style guidance and best practices covered in class, such as spacing, modularity, and semantic naming? Did you comment your code as your instructors as we have in class?
-​
-* __Problem Solving__: Are you able to defend why you implemented your solution in a certain way? Can you demonstrated that you thought through alternative implementations? _(Note this is a likely question to be asked by a prospective employer when reviewing your portfolio projects)_
+## Deployment
+
+Access techTalk [here](https://tech-talk-app.herokuapp.com/ "open me!") on Heroku.
 
 
+### Installation Instructions
+To run the app from the source code, use the clone button to download the source code from GitHub. From the root directory type "yarn","mongod", "yarn seed" and "yarn start" in the terminal. The project will run on localhost:4000, and will be viewable on any web browser.
+
+ 
+## Technologies & Methodologies Used
+- HTML 5
+- CSS 3
+- JavaScript (ES6)
+- MongoDB (NoSQL)
+- Mongoose
+- Express.js
+- Node.js
+- React.js
+- React Router
+- Skeleton
+- SASS
+- Moment.js
+- Mocha
+- Chai
+- Supertest
+- Webpack
+- Yarn
+- Insomnia
+- Git
+- GitHub
+- Heroku
+- Adobe Illustrator
+- Adobe Photoshop
+- Wireframes
+- MVC Architecture
+- Authentication
+- RESTful APIs
+- CRUD Functionality
+- CSS Transitions
+
+ 
+## Features
+- Users are able to:
+  - register, login and logout;
+  - view events plotted on a map;
+  - filter events by location, programming language and cost;
+  - sign up to attend events;
+  - create, edit and delete their own events;
+  - comment on each others events;
+
+- Rollover programming buttons
+
+- Inline text editing
+
+
+## Website Architecture
+
+*Home Page*
+<img src="https://imgur.com/yDP94ht.jpg">
+
+*Event Page*
+<img src="https://imgur.com/4RSkBI7.jpg">
+
+*Register Page*
+<img src="https://imgur.com/tIVLrbB.jpg">
+
+*Login Page*
+<img src="https://imgur.com/fqcV9Xw.jpg">
+
+*Profile Page*
+<img src="https://imgur.com/vXGrLxj.jpg">
+
+*Event Create Page*
+<img src="https://imgur.com/S9NfyRS.jpg">
+
+*Event Page - editable by the host*
+<img src="https://imgur.com/RyaY21f.jpg">
+
+*Filtered Events Page*
+<img src="https://imgur.com/dvHb1EV.jpg">
+   
+
+## Challenges Overcome
+- Adding functionality to the programming language search bar 
+- Using Mapbox
+- Avoiding duplicating code and causing conflicts within the group
+- Agreeing on styling preferences for uniformity across the site
+ 
+
+## Future Improvements
+- Fully responsive design
+- Develop a booking/payment system for events
+- Direct chat facility between users
+- Improved search filters 
+- Increased functionality in the profile settings
+- Add event images to the show page
+
+
+## Takeaways
+This was the first time we had linked the front and back end and it presented several challenges. Although communication broadly speaking was very good, going forward I will endeavour to spend more time pseudo-coding to ensure clarity within the team on all elements. 
+
+**I learnt the importance of:**
+
+- Good communication:
+  - Commenting code to ensure everyone was able to see how elements they hadn't written worked
+  - Regular Git commits with helpful comments
+
+- Maintaining clarity on which features are core to the MVP, and which you can work on at a later date
+
+- Writing automated tests for our RESTful resources on the back end to save time, particularly as the apps become more complicated
+
+
+---
+
+linkedin.com/in/sophieturnell/
+
+---

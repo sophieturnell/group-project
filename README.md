@@ -9,7 +9,7 @@ Build a full stack app by creating your own front and back end using MERN (Mongo
 
 Timeframe: 1 week, group coding collaborating with [Vikram Bageja](https://github.com/vikram1510), [Reema Patel](https://github.com/missreems) and [Tom Good](https://github.com/TE-Good).
 
- 
+
 ## Summary
 'Tech Talk' is a full stack app that allows users to find and create tech related events by location and date. Users can create events, see who is attending, and comment on the events that they are attending. We built the whole app in JavaScript. Our back end used an Express API to serve the data from a Mongo database and is consumed by our front end built using React. 
 
@@ -24,7 +24,7 @@ Access techTalk [here](https://tech-talk-app.herokuapp.com/ "open me!") on Herok
 ### Installation Instructions
 To run the app from the source code, use the clone button to download the source code from GitHub. From the root directory type "yarn","mongod", "yarn seed" and "yarn start" in the terminal. The project will run on localhost:4000, and will be viewable on any web browser.
 
- 
+
 ## Technologies & Methodologies Used
 - HTML 5
 - CSS 3
@@ -56,7 +56,7 @@ To run the app from the source code, use the clone button to download the source
 - CRUD Functionality
 - CSS Transitions
 
- 
+
 ## Features
 - Users are able to:
   - register, login and logout;

@@ -128,8 +128,11 @@ This was the first time we had linked the front and back end and it presented se
 - Writing automated tests for our RESTful resources on the back end to save time, particularly as the apps become more complicated
 
 
----
+___
 
-linkedin.com/in/sophieturnell/
 
----
+www.linkedin.com/in/sophieturnell
+  
+www.sophieturnell.com
+
+___

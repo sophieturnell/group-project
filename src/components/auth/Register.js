@@ -138,7 +138,7 @@ class Register extends React.Component {
                         <>
                         <img className="box-initial-image" src="../assets/java-white-button.png"></img>
                         <div className="box-overlay"> {/* TO COLOUR LOGO */}
-                          <img className="box-after-image" src="../assets/javaT.png"></img>
+                          <img className="box-after-image" src="../assets/javaT.png"></img> {/* fix after image clicked */}
                         </div>
                         </>
                         }

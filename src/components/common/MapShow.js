@@ -4,6 +4,8 @@ import MapGL, { Marker } from 'react-map-gl'
 import axios from 'axios'
 import 'mapbox-gl/dist/mapbox-gl.css'
 
+
+// Map in event show page
 class MapShow extends React.Component {
   constructor() {
     super()

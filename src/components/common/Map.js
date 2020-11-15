@@ -6,6 +6,7 @@ import 'mapbox-gl/dist/mapbox-gl.css'
 
 import EventLogo from '../events/EventLogo'
 
+// Map on events index page
 class Map extends React.Component {
   constructor() {
     super()
@@ -54,12 +55,8 @@ class Map extends React.Component {
         < MapGL
           className="event-map"
           mapboxApiAccessToken={process.env.MAPBOX_ACCESS_TOKEN}
-          // height={'598px'}
           height={'100vh'}
-          // width={'598px'}
           width={'87.7vw'}
-          // mapStyle="mapbox://styles/mapbox/streets-v11"
-          // mapStyle="mapbox://styles/mapbox/streets-v11"
           // mapStyle="mapbox://styles/mapbox/light-v10"
           mapStyle="mapbox://styles/mapbox/dark-v9"
           zoom={12}

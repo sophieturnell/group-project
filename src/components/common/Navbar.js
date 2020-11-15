@@ -39,18 +39,12 @@ class Navbar extends React.Component {
   render() {
     return (
       <div className="nav-sidebar animated fadeIn" style={{ userSelect: 'none' }}>
-        {/* <div className="burger-menu">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div> */}
+
         <div className="nav-wrapper">
           <nav>
             <div className="nav-top">
               <div className="nav-divide">
                 <Link to='/' className="logo">
-                  {/* <i className="far fa-handshake"></i> */}
-                  {/* <p><span>tech</span><span>Meet</span></p> */}
                   <p className="animated fadeIn">{'techTalk'}</p>
                 </Link>
               </div>
@@ -68,7 +62,10 @@ class Navbar extends React.Component {
                 <span>CREATE</span>
               </Link>
               }
-            </div>         
+            </div>
+
+
+
             <div className="nav-bottom">
               {Auth.isAuthenticated() ?
             <>
@@ -99,7 +96,6 @@ class Navbar extends React.Component {
             </>
               }
             </div>       
-            {/* <Link>Settings</Link> */}
           </nav>
         </div>
 
